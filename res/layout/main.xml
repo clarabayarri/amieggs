@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical" android:padding="20dip">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/amieggslogo" android:layout_weight="0.2"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" android:layout_weight="0.7" android:layout_margin="20dip">
+
+        <Button
+            android:id="@+id/new_game_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:background="@drawable/pink_button_selector"
+            android:text="@string/new_game_label" />
+
+        <Button
+            android:id="@+id/continue_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:background="@drawable/pink_button_selector"
+            android:text="@string/continue_label" />
+
+        <Button
+            android:id="@+id/settings_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:background="@drawable/pink_button_selector"
+            android:text="@string/settings" />
+
+        <Button
+            android:id="@+id/highscores_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:background="@drawable/pink_button_selector"
+            android:text="@string/highscores_label" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1" >
+        
+        <ImageView
+            android:id="@+id/etsy"
+            android:layout_width="wrap_content"
+            android:layout_height="70dip"
+            android:layout_gravity="center"
+            android:layout_weight="0.33"
+            android:src="@drawable/etsy" />
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_height="70dip"
+            android:layout_weight="0.33"
+            android:src="@drawable/facebook" android:layout_width="110dip"/>
+
+        <ImageView
+            android:id="@+id/clara"
+            android:layout_width="wrap_content"
+            android:layout_height="70dip"
+            android:src="@drawable/clara" />
+        
+    </LinearLayout>
+
+</LinearLayout>

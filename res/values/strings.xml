@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">amieggs</string>
+    <string name="new_game_label">New game</string>
+    <string name="continue_label">Continue</string>
+    <string name="about_label">About</string>
+    <string name="highscores_label">Highscores</string>
+    <string name="about_title">About amieggs</string>
+    <string name="about_text">amieggs was originally concieved as a crochet plush collection by Clara. you can find more about amieggs by visiting http://blog.amieggs.com</string>
+	<string name="help_label">Help</string>
+	<string name="restart_label">Restart</string>
+	<string name="main_menu_label">Main menu</string>
+	<string name="toggle_music">Toggle music</string>
+	<string name="level_label">Level: </string>
+	<string name="score_label">Score: </string>
+	
+	<string name="level_up">Level up!</string>
+	<string name="no_more_moves">No more moves!</string>
+	<string name="game_over">Game over!</string>
+	<string name="quit">Quit</string>
+	
+	<string name="default_0">0</string>
+	<string name="default_1">1</string>
+	
+	<string name="help_desc">Exchange two eggs by dragging one over the other. Make groups of 3 or more!</string>
+	<string name="close">Close</string>
+	<string name="settings">Settings</string>
+	<string name="name_label">Name:</string>
+	<string name="difficulty">Difficulty:</string>
+	<string-array name="difficulties_array">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+    <string name="music">Music:</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+	<string name="choose_eggs">Current egg selection</string>
+	<string name="choose_eggs_title">Choose a new egg</string>
+	
+	<string name="repeated_egg">This egg is already selected! Please choose another one.</string>
+</resources>
